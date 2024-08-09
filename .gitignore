@@ -7,8 +7,6 @@
 /node_modules
 oclif.manifest.json
 
-/bin
-
 yarn.lock
 pnpm-lock.yaml
 
