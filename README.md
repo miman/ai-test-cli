@@ -20,3 +20,19 @@ For now it has the following test use cases:
 | weather | Get the current weather based on the city name in the prompt using Ollama tools           |
 | tele    | Get info related to vehicle information using Ollama tools                                |
 | img     | Enables the user to ask questions related to the image whose path is given in the command |
+
+## Examples
+
+### Weather
+
+`aicli weather "What is the weather in Gothenburg ?"`
+
+### Weather
+
+`aicli tele which vehicle is closest to gothenburg ?`
+
+### Weather
+
+`aicli img "C:\Pictures\test-image.jpeg"`
+
+`aicli img "C:\Pictures\test-image.jpeg" -p "are there any dogs in the image"`
