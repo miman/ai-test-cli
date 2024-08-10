@@ -11,6 +11,16 @@ The project has test code for these areas:
 - Using tools with Ollama
 - Using an Ollama LLM to decode an image using LLava models
 
+## Prereqs
+
+The prerequisites for running this project are:
+
+- **node** must be installed
+- **Ollama** needs to be installed as a docker instance om your computer
+  - If you have installed it locally you need to change the hosty in **_OllamaProxy.ts_**
+- **llama3.1** needs to be installed in Ollama
+- **llava-phi3** needs to be installed in Ollama
+
 ## Test use cases
 
 For now it has the following test use cases:
